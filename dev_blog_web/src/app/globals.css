@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('react-toastify/dist/ReactToastify.css');
+
+[data-theme="dark"] {
+    background: #131355;
+    color: whitesmoke;
+}
+
+[data-theme="light"] {
+    background: whitesmoke;
+    color: black;
+}
